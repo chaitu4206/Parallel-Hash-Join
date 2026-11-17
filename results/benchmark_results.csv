@@ -1,0 +1,5 @@
+Implementation,Mode,Build_Time,Probe_Time,Total_Time,Matching_Records,Throughput,Workers,Initialization_Time,Speedup_vs_Sequential,Efficiency_Percent,Result_Copy_Time
+Sequential CPU,Single execution,0.030762,0.094951,0.125714,50000,397729.13,1.0,0.0,1.0,,
+Parallel CPU,Single execution,0.026678,3.975644,4.002322,50000,12492.75,4.0,0.0,0.031410266340389396,0.7852566585097349,
+Intel GPU OpenCL,Cold execution,1.6e-05,3.6e-05,0.184578,50000,270888.1881914421,,0.167501,0.681088753805979,,2.4e-05
+Intel GPU OpenCL,Warm average (5 runs),1e-05,2.5e-05,0.000993,50000,50350438.74,,0.0,126.60020140986909,,2.3e-05
